@@ -7,7 +7,8 @@ function fib(n) {
         process.stdout.write(a.toString(10)+' ');
         nextNumber = a + b;   
         a = b;
-        b = nextNumber;       
+        b = nextNumber;  
+        // one more comment     
     }
     console.log();
 }
